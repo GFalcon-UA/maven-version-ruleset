@@ -6,7 +6,7 @@
 
     <groupId>ua.com.gfalcon</groupId>
     <artifactId>maven-version-ruleset</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
 
     <name>Maven version rule set</name>
     <description>Rule set for versions-maven-plugin</description>
@@ -72,7 +72,7 @@
     </profiles>
 
     <build>
-        <finalName>logger</finalName>
+        <finalName>maven-version-ruleset</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
