@@ -10,7 +10,7 @@
 
     <name>Maven version rule set</name>
     <description>Rule set for versions-maven-plugin</description>
-    <url>https://github.com/gold-falcon/maven-version-ruleset</url>
+    <url>https://github.com/GFalcon-UA/maven-version-ruleset</url>
 
     <properties>
         <java.version>11</java.version>
@@ -19,9 +19,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:gold-falcon/maven-version-ruleset.git</connection>
-        <developerConnection>scm:git:ssh://github.com:gold-falcon/maven-version-ruleset.git</developerConnection>
-        <url>https://github.com/gold-falcon/maven-version-ruleset/tree/main</url>
+        <connection>scm:git:git@github.com:GFalcon-UA/maven-version-ruleset.git</connection>
+        <developerConnection>scm:git:ssh://github.com:GFalcon-UA/maven-version-ruleset.git</developerConnection>
+        <url>https://github.com/GFalcon-UA/maven-version-ruleset/tree/main</url>
     </scm>
 
     <licenses>
@@ -35,7 +35,8 @@
             <id>gfalcon-ua</id>
             <name>Oleksii V. Khalikov</name>
             <email>oleksii.khalikov@gmail.com</email>
-            <url>https://github.com/GFalcon-UA</url>
+            <url>https://github.com/oleksii-khalikov</url>
+            <organizationUrl>https://github.com/GFalcon-UA</organizationUrl>
         </developer>
     </developers>
 
