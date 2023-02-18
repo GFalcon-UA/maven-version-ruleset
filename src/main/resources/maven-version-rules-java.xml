@@ -16,5 +16,20 @@
                 <ignoreVersion>20030911</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="org.springframework.boot" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="regex">^[3-9].\d*.\d*</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="org.springframework.cloud" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="regex">^202[2-9].\d*.\d*</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="de.codecentric" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="regex">^[3-9].\d*.\d*</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
