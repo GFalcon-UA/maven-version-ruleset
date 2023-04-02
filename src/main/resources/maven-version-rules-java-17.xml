@@ -32,5 +32,10 @@
                 <ignoreVersion type="regex">^[1,2].\d*.\d*</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="org.springframework.shell" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="regex">^[1,2].\d*.\d*</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
